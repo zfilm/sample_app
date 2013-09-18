@@ -1,0 +1,15 @@
+<%provide(:title, "Jobs")%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ruby on Rails Tutorial Sample App | <%= yield(:title)%></title>
+	</head>
+	<body>
+		<h1>Jobs page</h1>
+		<%= "Velkommen, idag er det #{Time.now.strftime('%A')}  #{@morten}"%> 
+		<%= @morten%>
+		<p>Ja ja ja sand</p>
+		<p><a href="http://www.icity.no">www.icity.no</a>
+		</p>
+	</body>
+</head>
