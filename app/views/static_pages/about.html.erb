@@ -1,18 +1,11 @@
 <% provide(:title, 'About Us')%>
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Ruby on Rails Tutorial Sample App | <%= yield(:title)%></title>
-	</head>
-	<body>
-		<h1>About Us</h1>
-			<p>Need help about this, check out this site
-				<a href="http://www.icity.no">www.icity.no</a>
-			</p>
+<h1>About Us</h1>
+		<p>Need help about this, check out this site
+			<a href="http://www.icity.no">www.icity.no</a>
+		
 			<%= link_to "Home page", static_pages_home_path %>
 			<%= link_to "About Us page", static_pages_about_path %>
 			<%= link_to "Help page", static_pages_help_path %>
 			<%= link_to "Jobs page", static_pages_jobs_path %>
-	</body>
-</html>
+		</p>
 
