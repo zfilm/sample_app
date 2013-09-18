@@ -11,4 +11,7 @@ class StaticPagesController < ApplicationController
   def jobs
     @morten = "Hallo hallo"
   end
+  
+  def contact
+  end
 end
